@@ -1,2 +1,2 @@
-# WP-plugin-boilerplate
-WordPress Plugin boilerplate 
+# MY NFA WordPress Plugin
+WP Plugin
