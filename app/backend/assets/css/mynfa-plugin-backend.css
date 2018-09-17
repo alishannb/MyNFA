@@ -1,0 +1,21 @@
+.create-new-fields-wrapper {
+    padding: 15px;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    margin-top: 30px;
+}
+
+.available-items-wrapper .referral-image-wrapper img{
+    width: 50px;
+}
+.available-items-wrapper .edit, .remove{
+    padding: 3px 6px;
+    margin: 5px 10px;
+}
+.errors-wrapper{
+    margin: 0;
+}
+.errors-wrapper li{
+    padding: 10px;
+    margin: 0;
+}

@@ -1,0 +1,40 @@
+{
+  "name": "PressTigers - Network For Animals WP Plugin ",
+  "description": "Custom WP Plugin for Network for Animals according to requirements.",
+  "type": "plugin",
+  "license": "GPL-3.0+",
+  "authors": [
+    {
+      "name": "Ali Shan",
+      "email": "ali.shan@nxb.com.pk",
+      "homepage": "http://presstigers.com",
+      "role": "Software Engineer"
+    }
+  ],
+  "support": {
+    "email": "alishanvr@gmail.com"
+  },
+  "config": {
+    "platform": {
+      "php": "5.5"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "app\\abstracts\\": "app/abstracts/",
+      "app\\backend\\": "app/backend/",
+      "app\\common\\": "app/common/",
+      "app\\frontend\\": "app/frontend/"
+    },
+    "files": [
+      "app/common/functions.php"
+    ]
+  },
+  "require": {
+    "php" : ">=5.6",
+    "drewm/mailchimp-api": "^2.5"
+  },
+  "require-dev": {
+
+  }
+}

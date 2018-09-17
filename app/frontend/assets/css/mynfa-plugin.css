@@ -1,0 +1,99 @@
+.mynfa-register-form label{
+    display: block;
+}
+.dashboard-wrapper{
+    position: relative;
+}
+.dashboard-wrapper ul.nav-tabs li a{
+    padding: 10px 15px;
+    background: #848484 !important;
+    border-radius: 3px;
+    margin-right: 3px;
+    transition: all 0.2s ease-in;
+    text-decoration: none;
+    color: white;
+}
+.dashboard-wrapper ul.nav-tabs li a:hover{
+    background: #c2c2c2;
+}
+.post_content .dashboard-wrapper ul.nav-tabs li a.active{
+
+    background-color: #168EEA !important;
+    color: white;
+}
+.dashboard-wrapper ul.nav-tabs li{
+    margin-bottom: 10px;
+}
+.dashboard-wrapper .tab-content{
+    margin-top: 30px;
+    background: rgba(241, 241, 241, 0.011764705882352941);
+    border: 1px solid white;
+}
+.referrer-details p{
+    margin: 0;
+}
+.post_content .dashboard-wrapper .dashboard-summary h3{
+    float: left;
+    margin-bottom: 95px;
+}
+.dashboard-summary .badge-wrapper{
+    float: right;
+    margin-bottom: 95px;
+}
+.dashboard-summary .badge-wrapper img{
+    width: 60px;
+}
+.clear{
+    clear: both;
+}
+.dashboard-wrapper .chart-container{
+    height: 33vh;
+    width: 27vw;
+    text-align: center;
+    margin: 0 auto;
+    /*position: absolute;
+    top: 0;
+    right: 0;*/
+}
+.login-form label{
+    display: block;
+}
+.dashboard-wrapper .tab-content>.tab-pane.show.active{
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 19px lightgrey;
+}
+
+.dashboard-wrapper .tab-content>.tab-pane.show.active .paginate_button.previous,
+.dashboard-wrapper .tab-content>.tab-pane.show.active .paginate_button.next{
+    background-color: initial !important;
+}
+.dashboard-wrapper .user-summary{
+
+}
+.dashboard-wrapper div{
+    margin: 10px 0;
+}
+#login-register-password label{
+    font-weight:bold;
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+#login-register-password .user-submit{
+    background-color:#158eea;
+    transition: all 0.4s ease;
+}
+#login-register-password .user-submit:hover{
+    background-color:  #145da7
+}
+.mynfa-register-form .nfa-registration-errors{
+    background: #f5f5f5;
+    border-radius: 4px;
+    border: 1px solid rgba(136, 136, 136, 0.19);
+    padding: 15px 15px;
+    box-shadow: 0 0 11px #e9e9e9;
+}
+.mynfa-register-form .nfa-registration-errors li{
+    color: #c24c4c;
+    list-style: none;
+}
